@@ -7,19 +7,21 @@ public class NumericStringsPairException extends Exception {
 		super();
 	}
 
-	public NumericStringsPairException(String arg0, Throwable arg1, boolean arg2, boolean arg3) {
-		super(arg0, arg1, arg2, arg3);
+	public NumericStringsPairException(String message, Throwable cause,
+	                                   boolean enableSuppression,
+	                                   boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
 	}
 
-	public NumericStringsPairException(String arg0, Throwable arg1) {
-		super(arg0, arg1);
+	public NumericStringsPairException(String message, Throwable cause) {
+		super(message, cause);
 	}
 
-	public NumericStringsPairException(String arg0) {
-		super(arg0);
+	public NumericStringsPairException(String message) {
+		super(message);
 	}
 
-	public NumericStringsPairException(Throwable arg0) {
-		super(arg0);
+	public NumericStringsPairException(Throwable cause) {
+		super(cause);
 	}
 }
